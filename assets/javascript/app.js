@@ -1,3 +1,5 @@
+// javascript file for cloud types and other app functionality stuff
+
 var countAsync = 0;
 var divMatches = $("<div>");
 
