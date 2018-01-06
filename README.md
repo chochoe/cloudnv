@@ -1,6 +1,6 @@
 # CloudNV
 
->Emery Cho, Alyssa Keimach, Vu Vuong, Anders Sajbel
+Emery Cho, Alyssa Keimach, Vu Vuong, Anders Sajbel
 
 ## Purpose
 
