@@ -17,6 +17,12 @@ Simply either drag and drop an image, use the file explorer and select an image 
 
 After submitting something, it is first verified as an image. If it is over 4MB we send it to Imgur to store it for the Vision API to examine. Then it is sent to the Google Cloud Vision API. This analyzes the image and returns related tags. These tags first determine whether the image falls under clouds or not. They are then cross referenced with our hard coded cloud arrays. Depending on what tags match, the key words are then sent to the Wikipedia API where it then retrieves the summary section to append to the page for the user to read.
 
+## Screenshots
+
+![Before Upload](assets/images/complete-front-page.png)
+![Upload in Pregress](assets/images/uploaded-and-cloud-searching.png)
+![Upload Complete](assets/images/uploading-complete.png)
+
 ## APIs Used
 1. Imgur API
 2. Google Vision API
